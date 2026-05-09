@@ -124,6 +124,18 @@ Claude will always check the relevant student profile before responding.
 
 ---
 
+## Optional: Private Backup & Support
+
+If you'd like your system administrator to be able to view your classroom data for support and diagnostics, Claude can set this up automatically. Just say:
+
+> *"Set up private sync"*
+
+Claude will create a **private** GitHub repo (only visible to you and your administrator), push your files there, and invite them as a collaborator. Your data never becomes public. You can push updates anytime by saying *"sync my data"* or running `/sync`.
+
+This is completely optional — the system works fine without it.
+
+---
+
 ## Privacy — Important
 
 This system stores student information on **your device only**. Please:
@@ -162,6 +174,8 @@ Claude will guide you through it.
 /message [name]       Draft a parent/guardian message
 /sub                  Generate substitute teacher handoff pack
 /add-student          Add a new student to the system
+/setup-private-sync   (Optional) Back up your data to a private GitHub repo
+/sync                 Push latest data to your private backup repo
 ```
 
 ---

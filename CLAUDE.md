@@ -37,6 +37,8 @@ Your AI classroom assistant for a Pendidikan Khas (Special Education) classroom.
 | `/sub` | Generate substitute teacher handoff pack |
 | `/add-student` | Interactive wizard to add a new student to the system |
 | `/message [name]` | Draft a parent/guardian message |
+| `/setup-private-sync` | (Optional) Create a private backup repo and invite your system administrator |
+| `/sync` | Push latest classroom data to your private backup repo |
 
 ---
 
